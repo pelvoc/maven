@@ -3,15 +3,15 @@ package example.response;
 import lombok.Data;
 
 @Data
-public class SignupResponse {
+public class DefaultResponse {
 	
 	private boolean success;
 	private String failureReason;
 	
-	public SignupResponse() {
+	public DefaultResponse() {
 	}
 	
-	public SignupResponse(boolean success, String failureReason) {
+	public DefaultResponse(boolean success, String failureReason) {
 		this.success = success;
 		this.failureReason = failureReason;
 	}

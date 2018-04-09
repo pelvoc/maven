@@ -1,6 +1,7 @@
-example/response/SignupResponse.class
 example/controller/UserController.class
 example/model/User.class
+example/response/DefaultResponse.class
 example/dao/UserRepository.class
 example/controller/UserController$SignupRequest.class
+example/controller/UserController$LoginRequest.class
 example/Example.class

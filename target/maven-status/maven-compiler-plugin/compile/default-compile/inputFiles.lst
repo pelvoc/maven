@@ -1,5 +1,5 @@
 /home/davis/maven/src/main/java/example/model/User.java
+/home/davis/maven/src/main/java/example/response/DefaultResponse.java
 /home/davis/maven/src/main/java/example/Example.java
-/home/davis/maven/src/main/java/example/response/SignupResponse.java
 /home/davis/maven/src/main/java/example/dao/UserRepository.java
 /home/davis/maven/src/main/java/example/controller/UserController.java
