@@ -2,6 +2,7 @@ package example.model;
 
 import java.io.Serializable;
 import java.util.Date;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -20,6 +21,8 @@ public class User implements Serializable {
 	private Long id;
 	
 	private String userName;
+        
+        @Column(name = "password", length = 128, nullable = false)
 	private String password;
         
         @Temporal(javax.persistence.TemporalType.TIMESTAMP)

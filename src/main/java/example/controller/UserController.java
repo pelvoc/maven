@@ -1,5 +1,6 @@
 package example.controller;
 
+import example.dao.ProfileRepository;
 import example.dao.UserRepository;
 import example.model.User;
 import example.response.DefaultResponse;
@@ -18,6 +19,9 @@ public class UserController {
 
 	@Autowired
 	private UserRepository userRepo;
+        
+        @Autowired
+        private ProfileRepository profileRepo;
 	
 	@Data
 	public static class SignupRequest {
